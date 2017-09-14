@@ -7,17 +7,18 @@ a{
 	text-decoration: none;
 }
 :root{
-	background: rgba(247,247,247,0.8);
+	background-color: rgba(247,247,247,0.8);
 }
 /*可用区域的宽度*/
 main{
 	width: 1140px;
 	margin: 0 auto;
+	background: red;
 }
 header{
 	width: 100%;
 	height: 200px;
-	background: rgba(245,245,245,0.8);
+	-webkit-background-color: rgba(245,245,245,0.8);
 }
 header img{
 	padding-top: 30px;
