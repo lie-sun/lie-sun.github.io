@@ -767,7 +767,6 @@ window.onload = function () {
 	/*撤销*/
 	function Cancel() {
 		let abc = [1, 2, 3, 4, 5, 6, 7];
-		//		console.log(data.length)
 		if (data.length == 1) {
 			popdata.push(data[data.length - 1]);
 			data.pop();
@@ -775,7 +774,6 @@ window.onload = function () {
 		} else if (data.length > 1) {
 			popdata.push(data[data.length - 1]);
 			let newdata = data.pop();
-			console.log(data.length)
 			draw.clearRect(0, 0, canvas.width, canvas.height);
 			draw.putImageData(data[data.length - 1], 0, 0);
 		} else {
