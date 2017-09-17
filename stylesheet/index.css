@@ -7,7 +7,9 @@ body,ul,li,ol,p,h1,h2,h3,h4,h5,h6,img {
 a {
 	text-decoration: none;
 }
-
+i{
+	font-style: normal;
+}
 :root {
 	background-color: rgba(247, 247, 247, 0.8);
 }
@@ -22,15 +24,68 @@ main {
 
 header {
 	width: 100%;
-	height: 200px;
+	height: 160px;
 	background-color: rgba(245, 245, 245, 0.8);
 }
 
 header img {
-	padding-top: 30px;
+	padding-top: 15px;
 	display: block;
 	margin: 0 auto;
 }
+
+/*轮播*/
+.banner	{
+	width: 100%;
+	height: 560px;
+	position: relative;
+	background: yellow;
+}
+.list-ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 44px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.list-ul>li{
+	width: 19%;
+	height:100%;
+	background: rgba(229,229,229,1);
+	text-align: center;
+	line-height: 44px;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.3s;
+}
+.list-ul>i.icon-tri_down2:before{
+	display: inline-block;
+}
+.list-ul>li:hover{
+	background: rgba(222,222,222,1);
+}
+.list-container{
+	width: 100%;
+	position: absolute;
+	top: 44px;
+	left: 0;
+	height:auto;
+	display: none;
+	background: rgba(224,224,224,0.6);
+	border-radius: 10px;
+}
+.list-container a{
+	color: #666;
+}
+.list-container a:hover{
+	transition: all 0.3s;
+	text-decoration: underline;
+}
+
 /*底部*/
 footer{
 	width: 100%;
