@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ToDos</title>
+	<!--引入css-->
+	<link rel="stylesheet" href="index.css">
+	<!--引入框架-->
+	<script src="angular.min.js"></script>
+
+</head>
+
+<body ng-app='ToDoMVC' ng-controller='ToDocontroller'>
+
+
+	<!--Amgular输入框输入内容点击回车显示到相应位置  运用MVC模式-->
+	<div class="main">
+	
+		<h2 id="h2title">ToDos</h2>
+
+		<!--<input type="text" ng-model='text'>
+	<h3>{{text}}</h3>-->
+		<h3>添加事项:</h3>
+		<form action="" ng-submit='add()'>
+			<input type="text" placeholder="what needs to dones? " ng-model='text' autofocus='true' class="inputtext">
+		</form>
+		<hr>
+		<h3>未完成事项:</h3>
+		<ul>
+			<li ng-repeat='todo in todos'>
+				<input type="checkbox" ng-checked='todo.flag' ng-click='done($index)' class="checkstyle" id="checkstyle">
+				<label for="checkstyle">{{todo.text}}</label>
+				<button class="destroy" ng-click='delete()'>删除</button>
+			</li>
+		</ul>
+		<hr>
+		<h3>已完成事项:</h3>
+		<ul>
+			<li ng-repeat='donetodo in donetodos'>
+				<input type="checkbox" ng-checked='donetodo.flag' ng-click='tododone($index)' class="donecheck" id="donecheck">
+				<label for='donecheck'>{{donetodo.text}}</label>
+				<button class="destroy" ng-click='delete()'>删除</button>
+			</li>
+		</ul>
+	</div>
+	<script>
+		/*通过Angular创建一个模型*/
+		var con = angular.module('ToDoMVC', []);
+		/*通过创建的模型在生成一个控制器*/
+		con.controller('ToDocontroller', ['$scope', function($scope) {
+			/*未完成事件数组*/
+			$scope.todos = [];
+			/*已完成事件数组*/
+			$scope.donetodos = [];
+			/*添加事件*/
+			$scope.add = function() {
+				$scope.todos.unshift({
+					text: $scope.text,
+					flag: false
+				});
+				$scope.text = '';
+			}
+			/*点击选中事件*/
+			$scope.done = function(index) {
+				/*splice截取出的是以数组的形式返回,需要取出数组中的第一个元素,所以加[0]拿到数组中的第一个元素*/
+				let donetodo = $scope.todos.splice(index, 1)[0];
+				donetodo.flag = true;
+				$scope.donetodos.unshift(donetodo);
+			}
+			/*点击删除选中事件*/
+			$scope.tododone = function(index) {
+				let tododone = $scope.donetodos.splice(index, 1)[0];
+				tododone.flag = false;
+				$scope.todos.unshift(tododone);
+			}
+		}])
+
+	</script>
+
+</body>
+
+</html>

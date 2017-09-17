@@ -1,0 +1,198 @@
+i{
+	font-style: normal;
+	display: block;
+	float: left;
+}
+
+/*********你个人的网速****************/
+
+.your-personal-speed{
+	padding-left: 90px;
+	padding-top: 50px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 380px;
+	background: transparent url(../images/bg-count.jpg) 50% 50%/auto no-repeat scroll;
+    overflow: visible;
+	position: relative;
+}
+.your-personal-speed h1{
+	font-size: 34px;
+	color: #fff;
+	
+}
+.your-personal-speed h3{
+	font-size: 15px;
+	color: #fff;
+	
+}
+.your-personal-speed h5{
+	font-size: 14px;
+	width: 670px;
+	line-height: 30px;
+	color: #fff;
+}
+.your-personal-speed img{
+	position: absolute;
+	float: right;
+	right: 95px;
+	bottom: 0;
+}
+
+
+
+.more-plans{
+	width: 155px;
+	height: 43px;
+	border-radius: 22px;
+	background: #fff;
+	text-align: center;
+	line-height: 43px;
+	font-size: 15px;
+	color: #222;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.more-plans:hover{
+	color: #42A5f5;
+}
+
+
+
+
+
+/*************一些问题*************/
+.fewquestion-top{
+	width: 758px;
+	height: 295px;
+	padding-top: 95px;
+	padding-bottom: 105px;
+	box-sizing: border-box;
+	margin: auto;
+}
+.fewquestion-top h3{
+	width: 405px;
+	margin: auto;
+	display: block;
+	line-height: 25px;
+	height: 25px;
+	font-size: 20px;
+	color: #222222;
+	text-align: center;
+	padding: 0 0 30px 0;
+	overflow: hidden;
+}
+.fewquestion-top p{
+	font-size: 13px;
+	letter-spacing: 0.05px;	
+	text-align: center;
+	line-height: 25px;
+}
+
+.fewquestion-top h3::before{
+	width:90px;
+	height: 25px;
+	content: "";
+	display: block;
+	float: left;
+	padding-bottom: 1px;
+	margin-right: 20px;
+	background: url(../images/line-left-dark.png) no-repeat ;
+	
+}
+.fewquestion-top h3::after{
+	width:90px;
+	height: 25px;
+	content: "";
+	display: block;
+	float: left;
+	padding-top:1px;
+	margin-left: 20px;
+	background: url(../images/line-right-dark.png) no-repeat ;
+	
+}
+.fewquestion-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.fewquestion-bottom-main{
+	width: 1150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.UL{
+	width: 48%;
+	height: auto;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.UL .question-list{
+	width: 520px;
+	height: 50px;
+	box-shadow: 0 0 3px 1px rgba(175,175,175,0.5);
+	margin: 20px 10px;
+	text-align: center;
+	line-height: 50px;
+	background: #fff;
+	cursor: pointer;
+}
+.li-active{
+	background: #fafafa;
+}
+.UL .actives{
+	background: #fafafa;
+}
+.contant{
+	width:520px; 
+	height: 0;
+	margin: 20px 10px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 3px 1px rgba(175,175,175,0.5);
+	transition: all 0.3s;
+}
+.UL .shows{
+	width: 520px;
+	height: 250px;
+	margin: 20px 10px;
+	box-shadow: 0 0 3px 1px rgba(175,175,175,0.5);
+	background: #fff;
+	transition: all 0.3s;
+
+}
+.contant p{
+	width: 100%;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	letter-spacing: 0.08px;
+	color: #222222;
+	line-height: 22px;
+}
+
+.contant ul{
+	width: 100%;
+	padding: 25px;
+	box-sizing: border-box;
+}
+.contant ul li{
+	width: 50%;
+	float: left;
+	margin-bottom: 15px;
+	font-size: 14px;
+	color: #222;
+	line-height: 1;
+}
+
+
+
+
+
+

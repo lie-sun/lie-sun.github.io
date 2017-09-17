@@ -1,0 +1,296 @@
+img,li,ul,p,h3,a,h2,h6,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+::selection{
+	background: #212121;
+	color: #fff;
+}
+/*blog-banner*/
+.blog-banner{
+	width: 100%;
+	height: 270px;
+	background: transparent url(../images/newletter-bg.jpg)  40% 50%/100% scroll;
+	background-attachment: fixed;
+}
+
+
+
+
+/*博客列表*/
+
+.blog-list{
+	width: 100%;
+	height: 2030px;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.blog-list ul{
+	width: 1175px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	right: 0;
+	background: #fff;
+}
+.blog-list ul li{
+	float: left;
+	width: 570px;
+	padding-bottom: 40px;
+	border-bottom: 1px dashed #e1e1e1;
+	margin-bottom: 50px;
+	
+}
+.blog-list-content{
+	width: 560px;
+	height: 223px;
+	margin-left: 10px;
+/*	background: #555;*/
+}
+.meta{
+	width: 100%;
+	height: 64px;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.blog-list ul li h3{
+	width: 100%;
+	height: 29px;
+	color: #222;
+/*	line-height:;*/
+	font-size: 23px;
+	margin-top: 10px;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+.blog-list ul li h3:hover{
+	color:#42a5f5;
+}
+.blog-list ul li img{
+	width: 570px;
+}
+.blog-list ul li p{
+	font-size: 14px;
+	letter-spacing: 0.06em;
+	color: #515151;
+	line-height: 24px;
+	margin-bottom:30px;
+}
+.read-more{
+	width: 100px;
+	height:40px;
+	border-radius: 10px;
+	background: #222;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 600px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.read-more:hover{
+	background: #42a5f5;
+}
+.blog-list ul li:nth-child(2n){
+	margin-left: 30px;
+}
+
+/*轮播按钮*/
+.list-btn{
+	width: 410px;
+	height: 45px;
+	margin: 0 auto;
+}
+.list-btn li{
+	width: 43px;
+	height: 43px;
+	box-shadow: 0 0 3px 1px rgba(175,175,175,0.2);
+	border-radius: 50%;
+	float: left;
+	line-height: 43px;
+	text-align: center;
+	color: #42a5f5;
+	margin-right: 15px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.list-btn li:hover{
+	background: #42a5f5;
+	color: #fff;
+}
+.list-btn  .rgba{
+	background: #42a5f5;
+	color: #fff;
+}
+.list-btn li:last-child{
+	width: 103px;
+	height: 43px;
+	border-radius: 24px;
+	box-shadow: 0 0 3px 1px rgba(175,175,175,0.2);
+}
+
+/***************signup**************/
+.signup{
+	margin-top: 85px;
+	width: 100%;
+	height: 319px;
+	background: #42a5f5;
+}
+main{
+	padding-left: 100px;
+	padding-top: 90px;
+	box-sizing: border-box;
+	width: 1175px;
+	margin: 0 auto;
+}
+.signup-right,.signup-center,.signup-left{
+	float: left;
+}
+.signup-left h6{
+	width: 189px;
+	height: 47px;
+	background: #fff;
+	border-radius: 10px;
+	color: #333333;
+	text-align: center;
+	line-height: 47px;
+	cursor: pointer;
+	transition: all 0.3s;
+	margin-left: 100px;
+}
+.signup-left h6:hover,#submit:hover{
+	color: #42a5f5;
+}
+.signup-left h2{
+	font-size: 21px;
+	color: #fff;
+	margin-top: 40px;
+}
+.shuxian{
+	display: block;
+	width: 120px;
+	height: 5px;
+	line-height: 5px;
+	color: #4e5255;
+	transform: rotate(90deg) translateX(50%);
+}
+.signup-right p{
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.05em;
+	margin-bottom: 40px;
+}
+.signup-right .inputtext{
+	width: 240px;
+	height: 50px;
+	background: rgba(220,220,220,0.5);
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	padding: 25px;
+	box-sizing: border-box;
+}
+#submit{
+	width: 119px;
+	height: 48px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius:5px; 
+	background: #fff;
+	color: #333333;
+	outline: none;
+	border: none;
+	font-size: 12px;
+	cursor: pointer;
+}
+/**********threed***********/
+
+.threed{
+	width: 100%;
+	height: 494px;
+	background: #222222;
+	display: flex;
+}
+.threed-main{
+	width: 1175px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 90px;
+	box-sizing: border-box;
+}
+.threed-left{
+	width: 340px;
+	height: 100%;
+	float: left;
+}
+.threed-right{
+	flex:auto;
+	height: 100%;
+}
+
+.col-ms-3{
+	width: 270px;
+	height: 317px;
+	float: left;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+.col-ms-3 li{
+	width: 100%;
+	height: 40px;
+}
+.col-ms-3 li a{
+	color: #999;
+	font-size: 13px;
+	
+}
+.col-ms-3 li:hover a{
+	color: #42a5f5;
+}
+.threed h3{
+	width: 210px;
+	height: 70x;
+	color: #fff;
+	font-size: 15px;
+	line-height: 40px;
+}
+
+.threed h3::after{
+	content: "";
+    width:80px;
+    height: 20px;
+    background-image: url(../images/line-right-white.png) ;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+
+
+/************footer底部*************/
+.fot{
+	width: 100%;
+	height: 237px;
+	background: #222;
+}
+
+footer{
+	width: 100%;
+	height: 85px;
+	background: #1a1a1a;
+	text-align: center;
+	line-height: 85px;
+	color: #999;
+}
+
+
+
+
+
+

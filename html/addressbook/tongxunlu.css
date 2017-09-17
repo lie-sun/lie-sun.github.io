@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+dt a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #2A2A2A;
+}
+
+
+/*隐藏 纵向滚动条*/
+
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+
+/*头部固定顶部*/
+
+header {
+	width: 100%;
+	height: 1rem;
+	background: #f5f5f5;
+	padding: 0.1rem 0.15rem;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+
+/*搜索框*/
+
+input {
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	background: #fff;
+	padding-left: 0.15rem;
+	box-sizing: border-box;
+	border-radius: 0.1rem;
+	font-size: 0.3rem;
+}
+
+
+/*填充空白*/
+
+.top {
+	height: 1rem;
+}
+
+
+/*列表样式*/
+
+dt {
+	width: 100%;
+}
+
+dl {
+	width: 100%;
+	height: 0.90rem;
+	background: #f9f9f9;
+	padding-left: 0.15rem;
+	font-size: 0.3rem;
+	box-sizing: border-box;
+	color: #414141;
+	line-height: 0.90rem;
+}
+
+dd {
+	width: 100%;
+	height: 0.90rem;
+	background: #fcfcfc;
+	padding: 0 0.30rem;
+	box-sizing: border-box;
+	font-size: 0.2rem;
+	color: #5b5b5b;
+	border-bottom: 1px solid #f5f3f4;
+	line-height: 0.90rem;
+}
+
+#hint {
+	width: 100%;
+	height: 0.70rem;
+	background: #F9F9F9;
+	position: fixed;
+	top: 1rem;
+	left: 0;
+	font-size: 0.3rem;
+	color: #414141;
+	padding-left: 0.15rem;
+	box-sizing: border-box;
+	line-height: 0.90rem;
+}

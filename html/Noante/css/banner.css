@@ -1,0 +1,163 @@
+ul,
+li,
+i,body,html{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: normal;
+}
+
+.left-btn .iconfont,
+.right-btn .iconfont {
+    font-size: 25px;
+    margin-left: 7px;
+    line-height: 41px;
+    color: #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 870px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner-ul .show {
+    opacity: 1;
+}
+
+.banner-li {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+
+.banner-li img {
+    width: 100%;
+}
+
+#wid-speed {
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    z-index: 888;
+}
+
+#speed {
+    display: block;
+    height: 100%;
+    width: 0px;
+    background: rgba(99, 99, 99, 0.4);
+}
+
+
+/* 左右切换按钮 */
+
+.left-btn,
+.right-btn {
+    position: absolute;
+    top: 44%;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0.6s;
+    opacity: 0;
+}
+
+.left-btn:hover,
+.right-btn:hover {
+    background: #000;
+}
+
+.left-btn {
+    left: 20px;
+}
+
+.right-btn {
+    right: 20px;
+}
+
+html:hover .left-btn,
+html:hover .right-btn {
+    opacity: 1;
+}
+
+
+/* 轮播点 */
+
+.banner-list {
+    width: 85px;
+    height: 20px;
+    position: absolute;
+    bottom: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.list-li {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #D6D3D3;
+    background: transparent;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.rgba {
+    background: #D6D3D3;
+}
+
+@media screen and (max-width:1500px) {
+    .banner {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:1356px) {
+    .banner {
+        height: 658px;
+    }
+}
+
+@media screen and (max-width:1306px) {
+    .banner {
+        height: 608px;
+    }
+}
+
+@media screen and (max-width:1256px) {
+    .banner {
+        height: 568px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .banner {
+        height: 768px;
+    }
+}
+
+@media screen and (max-width:795px) {
+    .banner {
+        height: 585px;
+    }
+}

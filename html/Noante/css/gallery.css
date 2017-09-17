@@ -1,0 +1,52 @@
+.picture{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	overflow: hidden;
+}
+
+
+.pic-bottom .imgpic{
+	float: left;
+	width: 18.5%;
+	margin: .7%;
+	cursor: pointer;
+}
+.imgpic img{
+	width: 100%;
+}
+.pic-top{
+	height: 205px;
+	display: flex;
+}
+.pic-top button{
+	width: 68px;
+	height: 45px;
+	background: #fff;
+	border-radius: 5px;
+	color: #333333;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin-right: 75px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.pic-top-main{
+	width: 750px;
+	height: 50px;
+	margin: auto;
+}
+
+.pic-top .active-btn{
+	background: #42a5f5;
+	color: #fff;
+}
+.pic-top .active-btn:hover{
+	color: #333;
+}
+
+
+
+
+
