@@ -7,7 +7,7 @@ img,li,ul,p,h3,a,h2,h6,dl,dt,dd{
 	background: #212121;
 	color: #fff;
 }
-/*blog-banner*/
+/***************blog-banner******************/
 .blog-banner{
 	width: 100%;
 	height: 270px;
@@ -15,9 +15,24 @@ img,li,ul,p,h3,a,h2,h6,dl,dt,dd{
 	background-attachment: fixed;
 }
 
-
-
-
+.blog-banner p{
+	display: inline-block;
+	color: #fff;
+	font-size: 27px;
+	margin-left: 13%;
+	line-height: 270px;
+}
+#blog-home{
+	float: right;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 270px;
+	margin-right: 13%;
+	color: #2196f5;
+}
+#blog-home a{
+	color: #fff;
+}
 /*博客列表*/
 
 .blog-list{

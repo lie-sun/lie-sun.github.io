@@ -7,11 +7,33 @@
 	<link rel="stylesheet" href="../css/blog.css">
 	<link rel="stylesheet" href="../font/iconfont.css">
 	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/login.css">
 	<script src="../js/jquery-3.2.1.min.js"></script>
 	<script src="../js/blog.js"></script>
+	<script src="../js/login.js"></script>
 </head>
 
 <body>
+
+<!-- 登录遮罩部分 -->
+	<div class="allbg">
+		<div class="login">
+			<div class="login-top">
+				<span id="login-top-left">LOG IN</span><span id="login-top-right">+</span>
+			</div>
+			<div class="login-bottom">
+				<form action="javascript:;" method="">
+					<input type="text" name="username" id="username" placeholder="Username" autocomplete="off">
+					<input type="password" name="Password" id="Password" placeholder="Password">
+					<input id="check" type="checkbox" name="rempwd"> <span id="chek">Remember Me</span>
+					<span id="fpgpwd"><a href="javascript:;" title="Forgot Password">Lost Your Password?</a></span>
+					<button id="btn1">LOG IN</button>
+					<button id="btn2">REDISTER</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
 	<!--头部-->
 	<header>
 		<div class="head-left">
@@ -20,25 +42,27 @@
 		<div class="head-right">
 			<a href="../index.html">Home</a>
 			<a href="./blog.html">Blog</a>
-			<a href="">Pricing</a>
+			<a href="./pricing.html">Pricing</a>
 			<a href="">Services</a>
 			<a href="">About Us</a>
 			<a href="">Contact Us</a>
 			<i class="iconfont icon-sousuo"></i>
-			<div class="Search">
-				<input id="inputtext" type="text" name="" placeholder="Search">
-				<i class="iconfont icon-error"> </i>
+			<div class="container">      
+				<div class="Search">
+					<input id="inputtext" type="text" name="" placeholder="Search">
+					<i class="iconfont icon-error"> </i>
+				</div>
 			</div>
 		</div>
-		<div class="login-radio">
-			<i class="iconfont icon-ren"></i>
-		</div>
+		<div class="login-btn1">
+				<i class="iconfont icon-ren"></i>
+			</div>
 	</header>
 	<div style="height: 84px"></div>
 	<!--导航-->
 	<section class="blog-banner">
 		<p>Blog Categories</p>
-		<span id="blog-home"><a href="">HOME</a> <i class="iconfont "></i> Blog Categories</span>
+		<span id="blog-home"><a href="">HOME</a>  <i style="color: #fff; font-style: normal"> > </i> <i class="iconfont " ></i> Blog Categories</span>
 	</section>
 	<!--博客列表-->
 	<section class="blog-list">
@@ -781,7 +805,7 @@
 	</section>
 	<!--底部-->
 	<footer>
-		<p>&copy;Copyright 2017 Noanet by UNIQUE | ALL Rights Reserved.</p>
+		<p>&copy;Copyright 2017 Noanet by GOJARQI  | ALL Rights Reserved.</p>
 	</footer>
 </body>
 

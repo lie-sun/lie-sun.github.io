@@ -223,20 +223,20 @@ background: url(../images/pricing-bg.jpg) no-repeat ;
 	box-sizing: border-box;
 	height: 634px;
 	width: 100%;
-	background-image: url(../images/intro-bg.jpg);
+	background-image: url(../images/businessman-2606509_1920.jpg);
 	background-repeat: no-repeat;
 }
 .translate h4{
 	margin-left: 90px;
 	font-size: 25px;
-	color: #fff;
+	color: #222222;
 	line-height: 50px;
 }
 .translate p{
 	margin-left: 90px;
 	margin-top: 15px;
 	font-size: 14px;
-	color: #999999;
+	color: #000;
 	letter-spacing: 0.05px;
 }
 .botm-center,.botm-left,.botm-right{
@@ -500,13 +500,41 @@ background: url(../images/pricing-bg.jpg) no-repeat ;
 /**************sign up***********/
 
 .signup	{
-	height: 319px;
+	padding-top: 100px;
+	height: 219px;
 	width: 100%;
 	background:transparent url(../images/newletter-bg.jpg) no-repeat scroll;
 	background-attachment: fixed;
 }
+.signup-left{
+	margin-left: 13%;
+	position: relative;
+}
+.signup-right{
+		
+}
 .signup h6{
+	display: block;
+	height: 47px;
+	width: 190px;
+	background: transparent;
+	border-radius: 6px;
 	font-size: 10px;
+	color: #fff;
+	transition: all 0.5s;
+	cursor: pointer;
+	position: absolute;
+	right: 2px;
+	top:0;
+	text-align: center;
+	line-height: 47px;
+}
+.signup h6:hover{
+	background: #fff;
+	color: #42a5f5;
+}
+.signup h2{
+	margin-top: 80px;
 	color: #fff;
 }
 .shuxian{
@@ -514,7 +542,6 @@ background: url(../images/pricing-bg.jpg) no-repeat ;
 	width: 120px;
 	height: 5px;
 	line-height: 5px;
-/*	background: red;*/
 	color: #4e5255;
 	transform: rotate(90deg) translateX(50%);
 }
@@ -523,24 +550,41 @@ background: url(../images/pricing-bg.jpg) no-repeat ;
 }
 
 .signup-right .inputtext{
-	width: 240px;
-	height: 50px;
+	width: 190px;
+	height: 0px;
 	background: rgba(38,38,38,0.3);
 	border: none;
 	outline: none;
 	border-radius: 25px;
 	padding: 25px;
-	box-sizing: border-box;
+/*	box-sizing: border-box;*/
+	color: #fff;
+}
+.signup-right p{
+	margin: 10px 0 30px 0;
+	color: #999999;
 }
 #submit{
+	width:120px;
+	height: 47px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 	background: transparent;
 	color: #fff;
 	outline: none;
 	border: none;
 	font-size: 12px;
+	margin-left: 15px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 47px;
+	transition: all 0.5s;
 }
 
-
+#submit:hover{
+	background: #fff;
+	color: #42a5f5;
+}
 
 /************news*************/
 .news{
@@ -558,7 +602,19 @@ background: url(../images/pricing-bg.jpg) no-repeat ;
 	width: 630px;
 	height: 100%;
 	float: left;
-/*	background: #f00;*/
+}
+.news-left h4,.questions-right h4{
+	position: relative;
+	
+}
+.news-left h4 i,.questions-right h4 i{
+	display: block;
+	position: absolute;
+	top: 15px;;
+	left: 150px;
+	width: 90px;
+	height: 50px;
+	background: url(../images/line-right-dark.png) no-repeat ;
 }
 .news-top-bg{
 	margin-top: 70px;
@@ -793,14 +849,12 @@ background: url(../images/pricing-bg.jpg) no-repeat ;
 /****************say end*********************/
 
 /************footer底部*************/
-.fot{
-	width: 100%;
-	height: 237px;
-	background: #222;
-}
 footer{
 	width: 100%;
 	height: 85px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 85px;
 	background: #1a1a1a;
 }
 

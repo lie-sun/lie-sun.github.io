@@ -23,7 +23,7 @@ header {
     cursor: pointer;
 }
 .icon-error{
-    font-size: 50px;
+/*    font-size: 50px;*/
     font-weight: 600;
     color: #9B9B9B;
     position: absolute;
@@ -129,7 +129,7 @@ header {
     overflow: hidden;
 }
 /*圆login*/
-.login-radio{
+.login-btn1{
 	width: 58px;
 	height: 58px;
 	position: absolute;

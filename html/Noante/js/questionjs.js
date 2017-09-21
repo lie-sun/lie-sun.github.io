@@ -5,11 +5,11 @@ $(document).ready(function(){
 	/*一些问题*/
 	$('.question-list').click(function(){
 		/*清除其他列表的样式*/
-		$('.question-list').not($('.question-list').eq($(this).index())).removeClass('actives');
+		$('.question-list').removeClass('actives');
 		/*给点击的这个元素添加背景类*/
 		$(this).addClass('actives');
 		/*下面内容不显示*/
-		$('.question-list').not($('.question-list').eq($(this).index())).next().removeClass('shows');
+		$('.question-list').next().removeClass('shows');
 		/*点击的列表下面的内容显示*/
 		$(this).next().addClass('shows');
 	});
