@@ -1,0 +1,154 @@
+# Wavefront MTL
+# Created by fragMOTION
+# http://www.fragmosoft.com
+
+newmtl surface_000
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 002.png
+newmtl surface_001
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 002.png
+newmtl surface_002
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 002.png
+newmtl surface_003
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 002.png
+newmtl surface_004
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 002.png
+newmtl surface_005
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 002.png
+newmtl surface_006
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 006.png
+newmtl surface_007
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 006.png
+newmtl surface_008
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+newmtl surface_
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 006.png
+newmtl surface_1
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 006.png
+newmtl surface_2
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+newmtl surface_3
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 017.png
+newmtl surface_4
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 017.png
+newmtl surface_5
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 017.png
+newmtl surface_6
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
+map_kd 017.png
+newmtl surface_7
+illum 2
+d 1
+ka 0.780392 0.780392 0.780392
+kd 0.780392 0.780392 0.780392
+ks 0 0 0
+ke 0 0 0
+ns 0.271684
